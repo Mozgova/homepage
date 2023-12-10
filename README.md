@@ -1,2 +1,2 @@
 # homepage
-My first personal website. Basically this is just a resume. 🧙Hocus-pocus!
+My first personal website.
