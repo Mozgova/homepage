@@ -7,18 +7,18 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
 
   --primary-text-color: #181820;
-  --secondary-text-color: #5c5c62;
-  --durability-text-color: #6a737d9c;
-  --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --secondary-text-color: #2d2d44;
+  --durability-text-color: #405b799c;
+  --icon-color: #6d8aaa;
+  --border-color: #46341a45;
+  --text-decoration-color: #5aa032;
 }
 
 .container {
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 0 30px;
   max-width: 900px;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .resume {
-  margin: 50px auto;
+  margin: 40px auto;
   border: 1px solid #f5f5f5;
   box-shadow: 1px 1px 7px 7px #f5f5f5;
   padding: 30px 0;
@@ -72,6 +72,7 @@ body {
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
+  
 }
 
 .contact-info__header {
@@ -83,7 +84,7 @@ body {
 
 .contact-info__sub-header {
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .contact-info__block {
@@ -101,14 +102,16 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
+  margin-left: 420px;
+  
 }
 
 .contact-info__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact-info__item-icon-wrapper {
-  margin-right: 10px;
+  margin-right: 20px;
   width: 20px;
   display: flex;
   justify-content: center;
@@ -136,11 +139,12 @@ body {
 .intro {
   display: flex;
   justify-content: start;
+  margin-top: 40px;
 }
 
 .intro__icon-wrapper {
   margin-right: 30px;
-  width: 30px;
+  width: 20px;
   display: flex;
   justify-content: center;
 }
@@ -162,23 +166,26 @@ body {
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+  margin-left: 20px;
 }
 /*Experience and additional info styles*/
 .experiences {
   flex: 1 1 60%;
-  margin-right: 50px;
+ margin-right: 40px;
+ 
 }
 
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+  margin-left: 460px;
 }
 
 .experiences__company-header-durability {
@@ -186,6 +193,7 @@ body {
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
+  margin-left: 460px;
 }
 
 .experiences__company-header-name {
@@ -194,24 +202,28 @@ body {
   text-decoration-line: underline;
   text-align: left;
   margin-bottom: 20px;
+  margin-left: 460px;
 }
 
 .experiences__company-project {
-  margin-left: 15px;
+  margin-left: 460px;
   margin-bottom: 25px;
+  
 }
 
 .experiences__company-project-role {
   color: var(--durability-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 15px;
+  
 }
 
 .experiences__company-project-name {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
+  
 }
 
 .experiences__company-project-responsibilities {
@@ -221,6 +233,8 @@ body {
 
 .additional-info {
   flex: 1 1 40%;
+  margin-left: 900px;
+  margin-top: -290px;
 }
 
 .additional-info__education {
