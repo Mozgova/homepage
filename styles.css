@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #e7f1ee;
 }
 
 body {
@@ -12,9 +13,9 @@ body {
   --primary-text-color: #181820;
   --secondary-text-color: #2d2d44;
   --durability-text-color: #405b799c;
-  --icon-color: #6d8aaa;
+  --icon-color: #1a2027;
   --border-color: #46341a45;
-  --text-decoration-color: #5aa032;
+  --text-decoration-color: #1c250d;
 }
 
 .container {
@@ -37,8 +38,8 @@ body {
 
 .resume {
   margin: 40px auto;
-  border: 1px solid #f5f5f5;
-  box-shadow: 1px 1px 7px 7px #f5f5f5;
+  border: 1px solid c4b741;
+  box-shadow: 1px 1px 7px 7px #a9c44a;
   padding: 30px 0;
   max-width: 900px;
 }
@@ -189,7 +190,7 @@ body {
 }
 
 .experiences__company-header-durability {
-  color: var(--durability-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
@@ -234,7 +235,7 @@ body {
 .additional-info {
   flex: 1 1 40%;
   margin-left: 900px;
-  margin-top: -290px;
+  margin-top: -360px;
 }
 
 .additional-info__education {
