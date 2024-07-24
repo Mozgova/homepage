@@ -39,7 +39,7 @@ body {
 .resume {
   margin: 40px auto;
   border: 1px solid c4b741;
-  box-shadow: 1px 1px 7px 7px #a9c44a;
+  box-shadow: 1px 1px 7px 7px #242b0b;
   padding: 30px 0;
   max-width: 900px;
 }
@@ -128,11 +128,11 @@ body {
 }
 
 .contact-info__avatar {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  border-radius: 60%;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
-  border: 3px solid;
+  border: 2px solid;
   border-color: var(--text-decoration-color);
 }
 
